@@ -48,10 +48,10 @@ body{
 padding: 1rem;
 margin-top: 4rem;
 display: block;
-width: 100%;
+width: 90%;
 height: auto;
 position: relative;
-width: 50%;
+width:50vh;
 margin-left: 2rem;
 }
 .titleimg{
@@ -174,5 +174,12 @@ line-height: normal;
         z-index: 10px;
     } */
     .search{
-        margin-top: -34rem;
+        margin-top : -34rem;
+    }
+    @media  screen and (min-width:1024px) {
+        .bigimg{
+            /* display: flex;
+            flex-wrap: wrap; */
+            min-width:100%;
+        }
     }
